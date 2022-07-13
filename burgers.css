@@ -1,0 +1,110 @@
+* {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    padding: 20px 0;
+    background: url(imagem/fundomario-novo.png);
+  }
+     
+  
+  @font-face {
+          font-family: supermario;
+          src: url(fonte/SuperMario256.ttf);
+      }
+  
+  
+  .caixa {
+      position: relative;
+      width: 940px;
+      margin: 0 auto;
+  }
+  
+  .logo {
+      width: 200px;
+      max-width: 200px;
+  }
+  
+  nav {
+      position: absolute;
+      top: 80px;
+      right: 100px;
+  }
+  
+  nav li {
+      display: inline; /*alinhamento em linha*/
+      margin: 0 0 0 25px;
+      text-transform: uppercase;
+      font-family: supermario;
+      font-size: 22px;
+      color: #fe721b;
+    }
+  
+  nav li a:hover {
+      color: #fe721b;
+      text-decoration: underline;
+  }
+
+h3 {
+    margin: 40px 0;
+    text-align: center;
+    font-family: supermario;
+    font-size: 40px;
+}
+ .produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px o;
+}
+
+.produtos li {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 2,5%;
+   font-family: supermario;
+   padding: 40px 0;
+   font-size: 30px;
+}
+
+
+.produtos li:hover {
+    color: #fe721b;
+    text-decoration: underline;
+}
+
+
+.voltar {
+    margin: 40px 0;
+    text-align: center;
+    font-family: supermario;
+    font-size: 40px;
+}
+
+.voltar:hover {
+    color: #fe721b;
+    text-decoration: underline;
+    
+}
+
+.botao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagem/rodape.jpg);
+    padding: 10px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 5px;
+}

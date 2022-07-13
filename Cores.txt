@@ -1,0 +1,6 @@
+cores Super burguer
+salmão: HEX : #f5d8ba
+Laranja:HEX : #fe721b
+Azul: HEX : #c0dbf9
+lranja fraco: HEX : #e58958
+verde: HEX : #bde0c0
