@@ -103,8 +103,41 @@ footer {
     background: url(imagem/rodape.jpg);
     padding: 10px 0;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.redes-sociais {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 5px auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: auto;
+  
+}
+
+
+
+.redes-sociais a {
+    color: #fa6a11;
+    padding: 0px 10px;
+    transition: 1s all;
+      
+}
+   
+
+.redes-sociais a:hover {
+   cursor: pointer; 
+}
+
 .copyright {
     color: #ffffff;
     font-size: 13px;
-    margin-top: 5px;
+    margin-top: 10px;
 }

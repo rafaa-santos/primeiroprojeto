@@ -47,47 +47,74 @@ nav li a:hover {
     ;
 }
 
-.papel {
-    width: 940px;
-} /*tirar depois esse papel coloquei só pra dixar a home sem nada*/
 
-.descricao {
-    padding: 20px 0;
+
+
+main {
+    width: 940px;
+    margin: 60px auto;
+    text-align: center;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px o;
+
+
+form {
+    margin: 40px 0;
+    margin-bottom: 10px;
 }
 
-.produtos li {
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+
+}
+
+form input {
     display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    text-align: center;
-    margin: 0 2,5%;
-    font-family: supermario;
-    padding: 40px 0;
-    font-size: 30px;
+    margin: 0 0 20px;
+    padding: 10px 45px;
+    
 }
 
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 15px 25px; /*coloca espaço entre os imputs*/
+    width: 50%; /*coloca o campo com 50% da página*/
+    box-sizing: border-box;
+   
+}/*se colocar a virgula da pra por mais de um seletor de css e as config serão as mesmas*/
 
-.produtos li:hover {
-    color: #fe721b;
-    text-decoration: underline;
+.checkbox {
+    margin: 20px;
 }
 
-.botao {
-    text-align: center;
-    margin-top: 25px;
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: #fe721b;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none; /*tirei a borda do botão*/
+    border-radius: 5px; /*arredondei os cantos*/
+    transition: 1s all;/*coloca um delay para mudar a cor*/
+    cursor: pointer; /*pointer transforma a seta em maozinha*/
+   margin: 10px 0 30px;
 }
 
+.enviar:hover {
+    background-color: #fa6a11;
+    color: #000000;
+    transform: scale(1.1);
+}
 
 footer {
     text-align: center;
     background: url(imagem/rodape.jpg);
     padding: 10px 0;
+      
 }
 
 .container {
